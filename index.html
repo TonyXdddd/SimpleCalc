@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <h1 class="app__title">Ultra-mathBorg2150</h1>
+        <div class="app__calc" id ="calc-wrapper">
+            <img src="imgonline-com-ua-Transparent-backgr-u3xE0RPHCADFk.png" class="calc__spinner calc__spinner--active" id="shuriken">
+            <input id="calcInput" type="text" class="calc__input" autofocus>
+            <div class="calc__buttons">
+                <button id="button1" class="buttons__general buttons__first-in-line">1</button>
+                <button id="button2" class="buttons__general">2</button>
+                <button id="button3" class="buttons__general">3</button>
+                <button id ="plusButton" class="buttons__general">+</button>
+                <button id="button4" class="buttons__general  buttons__first-in-line">4</button>
+                <button id="button5" class="buttons__general">5</button>
+                <button id="button6" class="buttons__general">6</button>
+                <button id="minusButton" class="buttons__general">-</button>
+                <button id="button7" class="buttons__general  buttons__first-in-line">7</button>
+                <button id="button8" class="buttons__general">8</button>
+                <button id="button9" class="buttons__general">9</button>
+                <button id="multipleButton" class="buttons__general">*</button>
+                <button id ="dot" class="buttons__general buttons__first-in-line">.</button>
+                <button id="button0" class="buttons__general buttons__general--number">0</button>
+                <button id="percentButton" class="buttons__general">%</button>
+                <button id= "divisionButton" class="buttons__general">/</button>
+                <button id="cButton" class="buttons__general buttons__first-in-line buttons__bottom">C</button>
+                <button id="equalButton" class="buttons__general buttons__bottom">=</button>
+            </div>
+        </div>
+        <div id="percentHelper" class="app__percent-helper app__percent-helper--active">the number before "%" is the percent value of the number after "%"</div>
+    </div>
+    <script src="index.js">
+    </script>
+</body>
+</html>
